@@ -11,6 +11,7 @@ public class OhrmAddEmployee extends BaseTest {
 
 	@Test()
 	public void Login() {
+		System.out.println("Login started");
 		// enter text on username
 		driver.findElement(By.id("txtUsername")).sendKeys("admin");
 
