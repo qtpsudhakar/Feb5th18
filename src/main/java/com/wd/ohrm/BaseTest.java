@@ -33,6 +33,7 @@ public class BaseTest {
 
 			// navigate to orange hrm
 			driver.get(appUrl);
+			System.out.println("Application opened");
 		} catch (Exception e) {
 			System.out.println("Failed at OpenApplication");
 			throw e;
