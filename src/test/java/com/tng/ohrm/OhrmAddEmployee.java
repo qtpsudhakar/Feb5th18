@@ -22,6 +22,7 @@ public class OhrmAddEmployee extends BaseTest {
 		driver.findElement(By.id("btnLogin")).click();
 
 		System.out.println("Logged into application");
+		System.out.println("End of Login");
 	}
 
 	@Test(dependsOnMethods = "Login")
